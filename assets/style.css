@@ -1,4 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color:aquamarine;
+    background-color:rgb(185, 238, 220);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(39, 51, 51);
+}
+
+section {
+    height: auto;
+    width: 200px;
+    border: 2px;
+}
+
+
+
+h1 {
+    font-size: 170%;
+}
+
+nav {
+    width: 100px;
+    flex-direction: row;
 }
