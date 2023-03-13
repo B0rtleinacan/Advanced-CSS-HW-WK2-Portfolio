@@ -17,8 +17,9 @@ header {
 }
 
 section {
-    border-left: 2px black;
     flex: 4;
+    height: auto;
+    width: auto;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -27,23 +28,66 @@ section {
     align-items: center;
 }
 
+img {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
     bottom: 0;
-    border-left: 2px black;
 }
 
 header h1 {
     font-size: 170%;
 }
 
+h2 {
+    display: flex;
+    font-size: 200%;
+    justify-content: flex-end;
+}
+
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     min-width: 300px;
     color: whitesmoke;
     margin: 5px;
     padding: 3px;
+}
+
+nav a {
+    color: white;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+li {
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header img {
+    margin-right: 1250px;
+}
+
+.card-big {
+    height: 950px;
+    width: 400px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: flex-start;
+    border-right: 2px black;
 }
 
