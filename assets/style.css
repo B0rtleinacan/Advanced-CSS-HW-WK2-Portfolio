@@ -12,6 +12,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 1%;
     background-color:rgb(39, 51, 51); 
     color:antiquewhite;
@@ -19,6 +20,7 @@ header {
 
 main {
     display: flex;
+    flex-direction: column;
     flex: 1 1 0;
     max-width: 1200px;
     margin: 2% auto;
@@ -27,13 +29,15 @@ main {
 section {
     display: flex;
     flex: 1 1 0;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 img {
     display: block;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 3px black;
 }
 
@@ -55,9 +59,10 @@ h2 {
 
 nav {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    min-width: 300px;
+    width: 100%;
     color: whitesmoke;
     margin: 5px;
     padding: 3px;
@@ -67,7 +72,7 @@ nav {
 nav a {
     color: white;
     justify-content: space-between;
-    text-decoration: none;
+    align-items: flex-end;
     margin: 10px;
     padding: 5px;
 }
@@ -79,13 +84,15 @@ li {
 }
 
 header img {
-    margin-right: 1250px;
+    position: relative;
+    margin-right: 1300px;
 }
 
 aside {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-right: 25px;
     border-right: 2px solid black;
 }
 
@@ -96,15 +103,16 @@ aside {
     border-right: 2px black;
     padding: 20px;
     padding-bottom: 5px;
-    margin-left: 200px;
+    padding-top: 0px;
 }
 
 .work {
-
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-top: 200px;
 }
 
-.about-me h2 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 1100px;
+.about-me::before {
+
 }
