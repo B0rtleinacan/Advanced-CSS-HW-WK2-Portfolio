@@ -4,11 +4,12 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-direction: column;
     line-height: 1.3em;
+    min-height: 100vh;
 }
 
 header {
-    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
@@ -16,22 +17,24 @@ header {
     color:antiquewhite;
 }
 
-section {
-    flex: 4;
-    height: auto;
-    width: auto;
-    padding: 50px;
+main {
     display: flex;
-    flex-wrap: wrap;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+}
+
+section {
+    display: flex;
+    flex: 1 1 0;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 img {
     display: block;
     height: 100px;
     width: 100px;
+    border: 3px black;
 }
 
 footer {
@@ -58,6 +61,7 @@ nav {
     color: whitesmoke;
     margin: 5px;
     padding: 3px;
+    text-decoration: underline;
 }
 
 nav a {
@@ -72,22 +76,35 @@ li {
     padding: 5px;
     margin: 20px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 
 header img {
     margin-right: 1250px;
 }
 
-.card-big {
-    height: 950px;
-    width: 400px;
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-right: 2px solid black;
 }
 
 .about-me {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     border-right: 2px black;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin-left: 200px;
 }
 
+.work {
+
+}
+
+.about-me h2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1100px;
+}
