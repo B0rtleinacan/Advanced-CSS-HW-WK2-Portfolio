@@ -41,6 +41,10 @@ img {
     width: 150px;
 }
 
+header img {
+    margin-right: 1200px;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +58,7 @@ aside {
     padding: 30px;
     margin-right: 5px;
     width: 10%;
+    font-size: 200%;
 }
 
 .about-me {
@@ -68,6 +73,8 @@ aside {
 }
 
 .card-1 img {
+    opacity: 0.2;
+    transition: opacity 1s;
     margin-left: 200px;
     padding: 1px;
     border: 3px solid black;
@@ -77,25 +84,26 @@ aside {
 
 .card-2 img,
 .card-3 img {
+    opacity: 0.2;
+    transition: opacity 0.2s;
     padding: 1px;
     border: 3px solid black;
     margin: 10px;
     width: 350px
 }
 
-
-
-
-
-
-
-
-
+.card-1 img:hover, .card-2 img:hover, .card-3 img:hover {
+    background-color:bisque;
+    cursor: pointer;
+    opacity: 1;
+}
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     bottom: 0;
-    width: 80%;
+    width: 100%;
     align-items: center;
+    margin-left: 100px;
 }
+
