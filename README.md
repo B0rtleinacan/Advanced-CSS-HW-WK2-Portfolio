@@ -8,8 +8,8 @@ In this project I have created the landing stage of my portfolio. I had to figur
 
 ## Usage
 
-* Link:
-* Screenshot: ![]
+* Link: https://b0rtleinacan.github.io/Advanced-CSS-HW-WK2-Portfolio/
+* Screenshot: ![SS of portfolio.](./images/IDKWHATIMDOING.PNG)
 
 # Credits
 
