@@ -58,7 +58,7 @@ aside {
     padding: 30px;
     margin-right: 5px;
     width: 10%;
-    font-size: 200%;
+    font-size: 160%;
 }
 
 .about-me {
@@ -107,3 +107,23 @@ footer {
     margin-left: 100px;
 }
 
+@media screen and (max-width: 768px) {
+nav {
+    flex-direction: column;
+}
+
+.card-1 img {
+    height: 400px;
+    width: 400px;
+}
+
+.card-2,
+.card-3 {
+    height: 100px;
+    width: 200px;
+}
+
+footer {
+    width: 50%;
+}
+}
